@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .product-details {
+            color: #333;
+        }
+        .product-title {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        .product-brand {
+            font-size: 0.9rem;
+            color: #888;
+        }
+        .product-price {
+            font-size: 1.1rem;
+            color: #e91e63;
+            margin: 10px 0;
+        }
+        .product-description {
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        .add-to-cart {
+            display: inline-block;
+            background-color: #e91e63;
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .add-to-cart:hover {
+            background-color: #c2185b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Theron's Product Store</h1>
+    <div class="products">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://rukminim1.flixcart.com/image/128/128/jr3t5e80/track-pant/e/c/s/xl-1005combo4-yorker-original-imafczgcc8t8uppk.jpeg?q=70" alt="Product Image">
+            <div class="product-details">
+                <h2 class="product-title">Solid Men Multicolor Track Pants</h2>
+                <p class="product-brand">Brand: Caijun</p>
+                <p class="product-price">$931</p>
+                <p class="product-description">Yorker trackpants made from 90% rich combed cotton...</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://rukminim1.flixcart.com/image/128/128/jr3t5e80/track-pant/w/e/f/xl-1005combo3-yorker-original-imafczezgq8ntn7c.jpeg?q=70" alt="Product Image">
+            <div class="product-details">
+                <h2>Solid Men Multicolor Track Pants</h2>
+                <p>Brand: Bryan</p>
+                <p>Price: $911</p>
+                <p>Description: Bryan's trackpants made from 50% rich combed cotton...</p>
+                <a href="https://www.flipkart.com/yorker-solid-men-multicolor-track-pants/p/itma2f9bfe7dafb7?pid=TKPFCZ9ESZZ7YWEF&lid=LSTTKPFCZ9ESZZ7YWEFAZ1PUK&marketplace=FLIPKART&srno=b_1_4&otracker=browse&fm=organic&iid=177a46eb-d053-4732-b3de-fcad6ff59cbd.TKPFCZ9ESZZ7YWEF.SEARCH&ssid=utkd4t3gb40000001612415717799">View Product</a>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://rukminim1.flixcart.com/image/128/128/jr3t5e80/track-pant/d/w/b/l-1005combo1-yorker-original-imafczg3zcuajpgb.jpeg?q=70" alt="Product Image">
+            <div class="product-details">
+                <h2>Solid Men Brown, Grey Track Pants</h2>
+                <p>Brand: Jeremy</p>
+                <p>Price: $943</p>
+                <p>Description: Jeremy's trackpants made from 10% rich combed cotton...</p>
+                <a href="https://www.flipkart.com/yorker-solid-men-brown-grey-track-pants/p/itm1a8387617b373?pid=TKPFCZ9EVXKBSUD7&lid=LSTTKPFCZ9EVXKBSUD7O1SCSG&marketplace=FLIPKART&srno=b_1_5&otracker=browse&fm=organic&iid=177a46eb-d053-4732-b3de-fcad6ff59cbd.TKPFCZ9EVXKBSUD7.SEARCH&ssid=utkd4t3gb40000001612415717799">View Product</a>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="https://rukminim1.flixcart.com/image/128/128/jr3t5e80/track-pant/w/d/a/m-1005combo8-yorker-original-imafczgcj7fh2rcx.jpeg?q=70" alt="Product Image">
+            <div class="product-details">
+                <h2>Solid Men Multicolor Track Pants</h2>
+                <p>Brand: Theron</p>
+                <p>Price: $1,169</p>
+                <p>Description: Theron's trackpants made from 100% combed cotton...</p>
+                <a href="https://www.flipkart.com/yorker-solid-men-multicolor-track-pants/p/itmd12f548703177?pid=TKPFCZ9EFK9DNWDA&lid=LSTTKPFCZ9EFK9DNWDAUSCZVB&marketplace=FLIPKART&srno=b_1_6&otracker=browse&fm=organic&iid=177a46eb-d053-4732-b3de-fcad6ff59cbd.TKPFCZ9EFK9DNWDA.SEARCH&ssid=utkd4t3gb40000001612415717799">View Product</a>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
